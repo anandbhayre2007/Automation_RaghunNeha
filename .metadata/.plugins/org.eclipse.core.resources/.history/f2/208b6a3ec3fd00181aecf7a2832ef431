@@ -1,0 +1,21 @@
+package exceptionHandling;
+
+public class ExceptionHandling {
+
+	public static void main(String[] args) 
+	{
+		try {
+			
+				//throw new ArithmeticException();
+				throw new RuntimeException();
+				//throw new Exception();
+				//throw new Error();
+			
+		}catch(ArithmeticException e)
+		{
+			System.out.println("Arithmetic Exception");
+			
+		}
+	}
+
+}

@@ -1,0 +1,13 @@
+package seleniumDay1;
+
+import org.testng.annotations.Test;
+
+public class TC_Flight_03 {
+
+
+	@Test
+	public void test3()
+	{
+		System.out.println("Anand3");
+	}
+}

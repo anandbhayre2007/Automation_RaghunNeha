@@ -1,0 +1,14 @@
+package polymorphism;
+
+public class TestClass2 {
+
+	public static void main(String[] args) 
+	{
+		TestClass1 obj= new TestClass3();
+		
+		
+		
+
+	}
+
+}

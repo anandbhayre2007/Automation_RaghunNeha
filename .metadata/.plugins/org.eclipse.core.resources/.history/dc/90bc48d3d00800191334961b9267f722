@@ -1,0 +1,13 @@
+package seleniumDay1;
+
+public class Testing2 
+{
+
+	@Test
+	public void test1()
+	{
+		System.out.println("Anand");
+	}
+	
+	
+}

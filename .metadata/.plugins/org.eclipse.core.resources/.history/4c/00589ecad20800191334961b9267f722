@@ -1,0 +1,15 @@
+package seleniumDay1;
+
+import org.testng.annotations.Test;
+
+public class Testing2 
+{
+
+	@Test
+	public void test1()
+	{
+		System.out.println("Anand");
+	}
+	
+	
+}

@@ -1,0 +1,29 @@
+package seleniumDay1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Testing1 {
+
+	public static void main(String[] args) 
+	{
+		System.setProperty("webdriver.chrome.driver", "D://chromedriver.exe");
+	
+		ChromeDriver dr= new ChromeDriver();
+		dr.manage().window().maximize();
+		
+		dr.get("http://www.newtours.demoaut.com/");
+		dr.findElement(By.xpath("//input[@name=\"userName\"]")).sendKeys("mercury");
+		dr.findElement(By.xpath("//input[@name='password']")).sendKeys("mercury");
+		dr.findElement(By.xpath("//input[@name='login']")).click();
+		//dr.findelements
+		
+		if(dr.findElements(By.xpath("//font[contains(text(),'Detailss')]")).size()>=1)
+			System.out.println("Pass");
+		else
+			System.out.println("Fail");
+		
+		//font[contains(text(),'Details')]
+	}
+
+}

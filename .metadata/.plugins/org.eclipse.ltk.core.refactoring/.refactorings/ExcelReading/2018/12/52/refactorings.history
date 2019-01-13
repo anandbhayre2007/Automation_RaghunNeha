@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Xls_Reader.java&apos; to &apos;StartSelenium/src/seleniumDay2&apos;&#x0D;&#x0A;- Original project: &apos;ExcelReading&apos;&#x0D;&#x0A;- Destination element: &apos;StartSelenium/src/seleniumDay2&apos;&#x0D;&#x0A;- Original element: &apos;Xl.Xls_Reader.java&apos;" description="Copy compilation unit" destination="=StartSelenium/src&lt;seleniumDay2" element1="/src&lt;Xl{Xls_Reader.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1545890336238" units="1" version="1.0"/>
+</session>
